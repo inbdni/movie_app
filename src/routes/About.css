@@ -1,0 +1,12 @@
+body {
+	background: #e6e6e6;
+}
+
+.textbox {
+	background-color: white;
+	border-radius: 50px;
+	padding: 30px;
+	margin: 100px;
+	align-items: center;
+	text-align: center;
+}
