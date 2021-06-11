@@ -6,16 +6,16 @@ import About from "./routes/About";
 import Detail from "./routes/Detail";
 
 function App() {
-  return (
-    <div>
-      <HashRouter>
-        <Navigation></Navigation>
-        <Route path="/" exact={true} component={Home}/>
-        <Route path="/about" exact={true} component={About}/>
-        <Route path="/movie/:id" exact={true} component={Detail}/>
-      </HashRouter>
-    </div>
-  );
+	return (
+		<div>
+			<HashRouter>
+				<Navigation></Navigation>
+				<Route path="/" exact={true} component={Home} />
+				<Route path="/about" exact={true} component={About} />
+				<Route path="/movie/:id" exact={true} component={Detail} />
+			</HashRouter>
+		</div>
+	);
 }
 
 export default App;
